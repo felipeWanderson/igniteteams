@@ -1,19 +1,9 @@
-import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
+import { Container } from './styles'
 
 export function Groups() {
   return (
-    <View style={styles.container}>
-      <Text>Groups</Text>
-    </View>
+    <Container>
+    </Container>
   )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#FFF',
-    alignItems: 'center',
-    justifyContent: 'center'
-  }
-})
